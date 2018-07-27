@@ -1,0 +1,23 @@
+.bd-footer {
+    text-align: left;
+    font-size: 85%;
+    background-color: #f7f7f7;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+footer {
+    display: block;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-right: 25px;
+}

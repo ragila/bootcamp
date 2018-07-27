@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+</head>
+<body>
+    <h1 id="judul">Daftar Minuman</h1>
+    <input id="input" />
+    <button id="tombol"> Save</button>
+    <br /> <br />
+    <ul id="list">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>    
+    <script />
+        const judulDOM = document.getElementById('judul');
+        <!-- 1. buatlah variable dom yang mengarah ke input -->
+        const inputDOM = document.getElementById('input');
+        <!-- 2. buatlah variable dom yang mengarah ke tombol -->
+        const buttonDOM = document.getElementById('tombol');
+        <!-- 3. buatlah variable dom yang mengarah ke list -->
+        const listDOM = document.getElementById('list')
+        let DataBuah = []
+
+        DataBuah.push(data)
+        buttonDOM.addEventListener('click', function() {
+            const data = inputDOM.value
+            listDOM.innerHTML = listDOM.innerHTML + "<li>" + data + "</li>"
+            inputDOM.value = ""
+            console.log(DataBuah.value, ' kkkkk');
+        })
+    </script>
+</body>
+</html>

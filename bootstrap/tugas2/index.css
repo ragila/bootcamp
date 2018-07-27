@@ -1,0 +1,42 @@
+#navbarSupportedContent {
+    padding-left: 615px;
+}
+
+.Hijau {
+    background-color: #0bc72a;
+    color: #fff;
+}
+
+.jumbotron {
+    background: url(http://i66.tinypic.com/28am9fs.jpg);
+    color: #fff;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.display-3, .display-4 {
+    font-weight: 300;
+    font-size: 4.5rem;
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.daftar {
+    font-size: 2rem;
+    text-align: center;
+    font-family: inherit;
+    margin-top: 0;
+}
+
+.Pondok-body {
+    border-top: 1px solid #e7e7e7;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
